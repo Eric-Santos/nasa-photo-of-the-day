@@ -1,13 +1,13 @@
-import React from "react";
-import "./App.css";
+import React /* useState, useEffect*/ from 'react';
+import './App.css';
+import NasaImgList from './components/NasaImgList';
 
 function App() {
+  // const [nasaPic, setNasaPic] = useState('');
+  // useEffect(() => {}, []);
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      <NasaImgList />
     </div>
   );
 }
